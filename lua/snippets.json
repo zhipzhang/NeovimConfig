@@ -1,0 +1,29 @@
+{
+  "function_docstring": {
+    "prefix": ["doc", "docstring"],
+    "body": [
+      "\"\"\"",
+      "${1:Function description}",
+      "",
+      "Parameters:",
+      "    ${2:param1} (${3:type}): ${4:Parameter description}",
+      "",
+      "Returns:",
+      "    ${5:return_type}: ${6:Return value description}",
+      "\"\"\""
+    ],
+    "description": "Function docstring"
+  },
+  "class_docstring": {
+    "prefix": ["cdoc", "classdoc"],
+    "body": [
+      "\"\"\"",
+      "${1:Class description}",
+      "",
+      "Attributes:",
+      "    ${2:attr1} (${3:type}): ${4:Attribute description}",
+      "\"\"\""
+    ],
+    "description": "Class docstring"
+  }
+}
